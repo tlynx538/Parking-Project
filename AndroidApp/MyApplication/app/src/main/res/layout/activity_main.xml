@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:fontFamily="@font/montserrat">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:padding="10sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap 'CONNECT' to connect to the server."
+        android:textColor="#fff"
+        android:padding="10sp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONNECT "
+        android:onClick="connectClick"
+        android:textColor="#fff"
+        android:background="#b4004e"
+        android:fontFamily="@font/montserrat"/>
+    <Button
+        android:id="@+id/btnDisconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="disconnectClick"
+        android:text="Disconnect"
+        android:textColor="#fff"
+        android:background="#8c0032"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="#fff"
+        android:padding="10sp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click CONNECT"
+        android:padding="10sp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/DispClientID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Client ID:"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/tvClientID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="10sp"/>
+
+    <Button
+        android:id="@+id/chip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fa5788"
+        android:onClick="subscribeClick"
+        android:text="Click Here to display the status of slot"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:id="@+id/tvLastMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slot Status"
+        android:padding="10sp"
+        android:textColor="#fff"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Slot"
+        android:textColor="#fff"
+        android:background="#b4004e"
+        android:fontFamily="@font/montserrat"
+        android:onClick="BookSlot" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCEL SLOT"
+        android:textColor="#fff"
+        android:background="#8c0032"
+        android:fontFamily="@font/montserrat"
+        android:onClick="CancelSlot"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpotFinder</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="invalid_name">Please enter a valid Name</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_confirm_email">Email does not match</string>
+    <string name="invalid_password">Please enter a password of atleast 5 characters</string>
+</resources>

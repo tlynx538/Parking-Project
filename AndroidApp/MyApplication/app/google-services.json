@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523550144546",
+    "firebase_url": "https://userbackend-b9640.firebaseio.com",
+    "project_id": "userbackend-b9640",
+    "storage_bucket": "userbackend-b9640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523550144546:android:03b11cc23341810a",
+        "android_client_info": {
+          "package_name": "lynx.tommy.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523550144546-5po04pcohm17acjnqnp287rqjabk0gh6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lynx.tommy.myapplication",
+            "certificate_hash": "7f165e81b1fc9351bace834fdd72d90e543ac962"
+          }
+        },
+        {
+          "client_id": "523550144546-tl4lsp65q8cjq55i2t0otpb6jk9k934p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8RYekocvAEqLP3AJ44Fsgevldp9tcivU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523550144546-tl4lsp65q8cjq55i2t0otpb6jk9k934p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

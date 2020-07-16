@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/idemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter your Email iD"
+        android:textColorHint="#fff"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="33sp"
+        android:textColor="#fff"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/pwdsign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="15sp"
+
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="33sp"
+        android:background="#b4004e"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="45sp"
+        android:text="New to Spotfinder?"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:fontFamily="@font/montserrat"
+        android:background="#b4004e"
+        android:layout_marginTop="13sp"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
